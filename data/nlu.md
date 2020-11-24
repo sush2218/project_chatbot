@@ -1,56 +1,63 @@
 ## intent:greet
-- hey
-- hello
 - hi
-- good morning
-- good evening
-- hey there
+- hello
+- hi there
+- hey
 
-## intent:goodbye
+## intent:cab_book
+- i like to book a cab
+- i would like to book a cab
+- i want to book a cab
+- i want to book a taxi
+- can you book a cab from me
+
+## intent:cancel
+- i like to cancel my booking
+- i like to cancel my cab
+- i am willing to cancel my cab
+- please cancel my cab
+- i want to cancel my booking
+- cancel my cab
+- cancel my booking
+
+##intent:details
+- can i know my booking details
+- i would like to know my cab details
+- i would like to know my booking details
+- can i see my booking details
+- can i know my cab details
+
+## intent:bye
+- bye bye
 - bye
 - goodbye
-- see you around
-- see you later
+- good bye
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+## intent:from
+- Warangal
+- Hyderabad
+- Mumbai
+- Delhi
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+## intent:to
+- Guwahati
+- Pune
+- America
+- Canada
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
+## intent:nano
+- one
+- two
+- nano
 
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+## intent:micro
+- three
+- four
+- micro
 
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## intent:macro
+- five
+- six
+- seven
+- eight
+- macro

@@ -1,31 +1,55 @@
-## happy path
+## start
 * greet
-  - utter_greet
-* mood_great
-  - utter_happy
+- utter_greet
+> check_greet
 
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+## book
 
-## say goodbye
-* goodbye
-  - utter_goodbye
+> check_greet
+* cab_book
+- utter_passengers
+> check_start
 
-## bot challenge
-* bot_challenge
-  - utter_iamabot
+## book_nano
+
+> check_start
+* nano
+- form_info
+- form{"name": "form_info"}
+- form{"name": null}
+
+## book_micro
+
+> check_start
+* micro
+- form_info
+- form{"name": "form_info"}
+- form{"name": null}
+
+
+## book_macro
+
+> check_start
+* macro
+- form_info
+- form{"name": "form_info"}
+- form{"name": null}
+
+
+## cancel
+
+> check_greet
+* cancel
+- form_cancel
+- form{"name": "form_cancel"}
+- form{"name": null}
+
+
+## details
+
+> check_greet
+* details
+- form_details
+- form{"name": "form_details"}
+- form{"name": null}
